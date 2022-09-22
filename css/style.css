@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+    padding: 1.4em;
+}
+
+header div{
+    font-size: 1.2em;
+    margin: 0em 4em;
+}
+
+.container{
+    background-color: #0f0e17;
+    color: white;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img{
+    float: left;
+    width: 6em;
+}
+
+.info{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: #2088ce;
+}
