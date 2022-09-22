@@ -9,23 +9,35 @@ header{
 
 h1{
     color: #e53170;
-    padding: 1.4em;
+    padding: 1.2em;
+    font-size: 3em;
 }
 
 header div{
-    font-size: 1.2em;
-    margin: 0em 4em;
+    font-size: 1.6em;
+    margin: 0em 4em 2em 4em;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+    width: 80em;
 }
 
 .container{
     background-color: #0f0e17;
     color: white;
+    width: 19em;
+    display: inline-block;
+    margin: 1em 1em;
+    box-shadow: 4px 4px 4px #0f0e17;
 }
 
 .container::after{
     content: "";
     display: table;
     clear: both;
+    
 }
 
 img{
@@ -34,8 +46,10 @@ img{
 }
 
 .info{
-    padding: 20px;
+    padding: 18px 18px 18px 110px;
+    text-align: left;
 }
+
 a{
     text-decoration: none;
     color: #2088ce;
