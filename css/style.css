@@ -50,6 +50,14 @@ img{
     text-align: left;
 }
 
+h3{
+    text-transform: uppercase;
+}
+
+.container div div{
+    padding: 6px 0px;
+}
+
 a{
     text-decoration: none;
     color: #2088ce;
